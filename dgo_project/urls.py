@@ -22,4 +22,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('bio/', include("dgo_app.urls")),
     path('', views.home, name="home"),
+    path('redirect/', views.redirect),
 ]
